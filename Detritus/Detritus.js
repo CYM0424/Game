@@ -206,8 +206,8 @@ function selectTile() {
 
                 // Get east digit
                 for (let ed = 0; ed < 2*col-1-c; ed++) {
-                    let er = r;
-                    let ec = c + ed;
+                    er = r;
+                    ec = c + ed;
                     if (document.getElementById(er.toString() + "-" + ec.toString()).innerText != "") {
                         e = parseInt(document.getElementById(er.toString() + "-" + ec.toString()).innerText);
                         break;
@@ -219,8 +219,8 @@ function selectTile() {
 
                 // Get west digit
                 for (let wd = 0; wd < c+1; wd++) {
-                    let wr = r;
-                    let wc = c - wd;
+                    wr = r;
+                    wc = c - wd;
                     if (document.getElementById(wr.toString() + "-" + wc.toString()).innerText != "") {
                         w = parseInt(document.getElementById(wr.toString() + "-" + wc.toString()).innerText);
                         break;
