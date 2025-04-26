@@ -171,6 +171,7 @@ function selectTile() {
                 let n = 0;
                 let sr = 0;
                 let sc = 0;
+                let s = 0;
                 let er = 0;
                 let ec = 0;
                 let e = 0;
